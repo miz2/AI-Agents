@@ -1,0 +1,7 @@
+INFO Server started
+INFO Request received
+ERROR Database failure
+INFO Request processed
+ERROR Timeout occurred
+ERROR DataProcessing Failed
+INFO this is fine 
