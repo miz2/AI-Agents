@@ -1,0 +1,44 @@
+# Virtual Environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Mac system files
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+.env.*
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.swp
+
+# AI datasets (optional if you add later)
+data/
+datasets/
+
+# Model files (can be large)
+models/
+*.pt
+*.bin
+*.safetensors
