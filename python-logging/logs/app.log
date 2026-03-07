@@ -1,0 +1,29 @@
+2026-03-07 15:52:27,753 - INFO - Application started
+2026-03-07 15:52:27,753 - WARNING - This is a warning message
+2026-03-07 15:52:27,753 - ERROR - An error occurred
+2026-03-07 15:53:02,086 - INFO - Application started
+2026-03-07 15:53:02,086 - WARNING - This is a warning message
+2026-03-07 15:53:02,086 - ERROR - An error occurred
+2026-03-07 15:53:02,086 - CRITICAL - Critical issue encountered
+2026-03-07 15:53:13,323 - INFO - Application started
+2026-03-07 15:53:13,323 - WARNING - This is a warning message
+2026-03-07 15:53:13,323 - ERROR - An error occurred
+2026-03-07 15:53:13,323 - CRITICAL - Critical issue encountered
+2026-03-07 15:56:26,719 - INFO - Application started
+2026-03-07 15:56:26,719 - WARNING - This is a warning message
+2026-03-07 15:56:26,719 - ERROR - An error occurred
+2026-03-07 15:56:26,719 - CRITICAL - Critical issue encountered
+2026-03-07 15:56:26,719 - DEBUG - This is a debug message that won't be logged due to the INFO level
+2026-03-07 15:57:52,578 - INFO - Divided 10 by 2 successfully. Result: 5.0
+2026-03-07 15:57:52,578 - ERROR - Error dividing 10 by 0: division by zero
+2026-03-07 16:01:29,193 - INFO - Info found in logs: INFO Server started
+2026-03-07 16:01:29,193 - INFO - Info found in logs: INFO Request received
+2026-03-07 16:01:29,193 - ERROR - Error found in logs: ERROR Database connection failed
+2026-03-07 16:01:29,193 - INFO - Info found in logs: INFO Request processed
+2026-03-07 16:01:29,193 - ERROR - Error found in logs: ERROR Timeout occurred
+2026-03-07 16:02:51,338 - INFO - Info found in logs: INFO Server started
+2026-03-07 16:02:51,338 - INFO - Info found in logs: INFO Request received
+2026-03-07 16:02:51,338 - ERROR - Error found in logs: ERROR Database connection failed
+2026-03-07 16:02:51,338 - INFO - Info found in logs: INFO Request processed
+2026-03-07 16:02:51,338 - ERROR - Error found in logs: ERROR Timeout occurred
+2026-03-07 16:02:51,338 - INFO - Total errors found: 2
