@@ -1,44 +1,141 @@
-# Virtual Environment
-venv/
-.env/
+# =========================
 
-# Python cache
-__pycache__/
+# Python Virtual Environments
+
+# =========================
+
+venv/
+env/
+ENV/
+.venv/
+ai-env/
+
+# =========================
+
+# Python Cache
+
+# =========================
+
+**pycache**/
 *.pyc
 *.pyo
 *.pyd
+*.py[cod]
+*$py.class
 
-# Logs
-*.log
+# =========================
 
-# Mac system files
-.DS_Store
+# Environment Variables
 
-# VS Code
-.vscode/
+# =========================
 
-# Environment files
 .env
 .env.*
+*.env
 
-# Jupyter notebooks checkpoints
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+
+# =========================
+
+# macOS System Files
+
+# =========================
+
+.DS_Store
+
+# =========================
+
+# VS Code
+
+# =========================
+
+.vscode/
+.history/
+
+# =========================
+
+# Jupyter
+
+# =========================
+
 .ipynb_checkpoints/
 
-# Build files
+# =========================
+
+# Python Build Files
+
+# =========================
+
 build/
 dist/
 *.egg-info/
+.eggs/
 
-# Temporary files
+# =========================
+
+# Temporary Files
+
+# =========================
+
 *.tmp
 *.swp
+*.swo
 
-# AI datasets (optional if you add later)
-data/
-datasets/
+# =========================
 
-# Model files (can be large)
+# HuggingFace / AI Models
+
+# =========================
+
 models/
+checkpoints/
 *.pt
+*.pth
 *.bin
 *.safetensors
+*.ckpt
+
+# =========================
+
+# Dataset / Data folders
+
+# =========================
+
+data/
+datasets/
+*.csv
+*.jsonl
+
+# =========================
+
+# HuggingFace cache
+
+# =========================
+
+.cache/
+huggingface/
+hf_cache/
+
+# =========================
+
+# Vector DB / Embeddings
+
+# =========================
+
+faiss_index/
+chroma/
+chromadb/
+
+# =========================
+
+# LangChain Artifacts
+
+# =========================
+
+lc_store/
